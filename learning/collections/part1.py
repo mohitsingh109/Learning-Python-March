@@ -1,7 +1,7 @@
 # Data structure/Collection
 # List -- Array  []
 # Tuple -- Immutable Array ()
-# Set --> Unique list {}
+# Set --> Unique list {} O(1) {"Mohit": None}
 # Dict  ---> Key Value {}
 
 # Slice in list
