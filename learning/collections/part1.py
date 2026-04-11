@@ -48,12 +48,13 @@ builds = ["SUCCESS", "FAILED", "SKIP", "SUCCESS", "SUCCESS", "FAILED"]
 # i want to know how much build succeeded
 
 def extract_build_status(build_list, status):
-    filtered_build = []
-    for build in build_list:
-        if build == status:
-            filtered_build.append(build)
-
-    return filtered_build
+    # filtered_build = []
+    # for build in build_list:
+    #     if build == status:
+    #         filtered_build.append(build)
+    #
+    # return filtered_build
+    return [build for build in build_list if build == status]
 
 # [0-SUCCESS, 3-SUCCESS, 4-SUCCESS]
 def extract_build_status_with_index_range(build_list, status):
