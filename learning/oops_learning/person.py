@@ -20,6 +20,19 @@ class User:
 2245,Karan,karan@gmail.com
 """
 
+# users = {
+#     "123": {
+#         "name": "Mohit",
+#         "email": "mohit@gmail.com",
+#         "address": "abc"
+#     },
+#     "456": {
+#         "Name": "Karan",
+#         "email_address": "karan@gmail.com",
+#         "phone": "123"
+#     }
+# }
+
 # # object
 # user_1 = User(2231, "Mohit Singh", "mohit123@gmail.com", "ad1")
 # user_2 = User(2244, "Aman", "aman123@gmail.com", "ad2")
