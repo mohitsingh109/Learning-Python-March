@@ -1,7 +1,7 @@
 # Inheritance
-    # Polymorphism
-        # Run time
-        # Compile time
+# Polymorphism
+    # Run time
+    # Compile time
 
 # Inheritance
 # Phone:
