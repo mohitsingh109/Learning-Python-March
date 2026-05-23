@@ -13,9 +13,10 @@
 # 3. Hierarchy Inheritance (P --> C1 --> C2) YY
 # 4. Hybrid Inheritance (P ---> C --> (c1, c2) ) YY
 
+from abc import ABC
 
 # Parent class
-class Phone:
+class Phone(ABC):
     def __init__(self, name, model, price, color, height, width, weight, number_of_cameras):
         self.__name = name
         self.__model = model
@@ -81,6 +82,9 @@ class Samsung(Phone):
 
     def f1(self):
         print(self._number_of_cameras)
+
+#one_plus = Phone("IPhone 17", "Pro Max", 10, "black", 11, 22, 33, 3)
+
 
 iphone17 = IPhone("IPhone 17", "Pro Max", 10, "black", 11, 22, 33, 3, "f_123")
 #iphone17.click_image() # Run time polymorphism
