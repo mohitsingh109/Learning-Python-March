@@ -2,7 +2,7 @@
 # Message via an SMS, Email, Slack, Teams, WhatsApp,...
 
 # MessageSystem
-# sent_message(text)
+# sent_message(text) XXX
 
 from abc import ABC, abstractmethod
 
