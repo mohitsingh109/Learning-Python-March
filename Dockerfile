@@ -14,5 +14,4 @@ EXPOSE 8888
 ENV NAME World
 
 # Run Jupyter Notebook when the container launches
-
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--notebook-dir=/app"]
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
